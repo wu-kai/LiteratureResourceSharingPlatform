@@ -38,7 +38,7 @@ a:hover {
   width:1200px;
   margin:0 auto;
 }
-.common_link:hover{
+.common_link:hover,.common_link:hover *{
   cursor:pointer;
   color:#165DBC !important;
 }
@@ -72,6 +72,9 @@ a:hover {
 }
 .common_top .top_left{
   float:left;
+}
+.common_top a{
+  color:#545E65;
 }
 .common_top .top_left span{
   margin-right:20px;
