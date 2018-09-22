@@ -58,6 +58,9 @@ a:hover {
 .fr{
   float:right !important;
 }
+.marginT50{
+  margin-top:50px;
+}
 input.common_checkbox[type=checkbox] {
   position: relative;
   width: 10px;
@@ -168,7 +171,7 @@ input.common_checkbox[type=checkbox]:checked::before {
 .common_header .header_right .search span{
   display:inline-block;
   width:50px;
-  height:35px;
+  height:40px;
   background:#165DBC url('../images/search.png') no-repeat center;
   float:left;
 }
@@ -279,8 +282,8 @@ input.common_checkbox[type=checkbox]:checked::before {
   cursor:pointer;
   color:#165DBC;
 }
-.common_navigation .navigation_item a{
-
+.common_navigation .navigation_item a:hover{
+  color:#fff;
 }
 .common_navigation .navigation_item.not_classify:hover{
   border-bottom:2px solid #fff;
@@ -306,3 +309,57 @@ input.common_checkbox[type=checkbox]:checked::before {
   text-space:14px;
 }
 /*common footer end*/
+
+/*common left navigation start*/
+.common_left_navigation{
+  float:left;
+}
+.common_left_navigation ul{
+  width:200px;
+  float:left;
+}
+.common_left_navigation ul li{
+  font-size:16px;
+  color:#4A4A4A;
+  border:1px solid #DAE2E6;
+  margin-top:-1px;
+  border-bottom:none;
+  text-align:center;
+  line-height:70px;
+}
+.common_left_navigation ul li:last-child{
+  border-bottom:1px solid #DAE2E6;
+}
+.common_left_navigation ul li:Hover{
+  color:#fff;
+  background:#165DBC;
+  border-color:#165DBC;
+  cursor:pointer;
+}
+.common_left_navigation ul li.active{
+  color:#fff;
+  background:#165DBC;
+  border-color:#165DBC;
+}
+.common_right_box{
+  width:calc(100% - 220px);
+  float:right;
+  min-height:200px;
+  border:1px solid #DAE2E6;
+  box-sizing:border-box;
+}
+/*common left navigation end*/
+/*common paging start*/
+#paging{
+  text-align:center;
+}
+.layui-laypage-common_paging{
+
+}
+.layui-laypage-common_paging.layui-laypage .layui-laypage-curr .layui-laypage-em{
+  background:rgba(22, 93, 188, 0.05);
+}
+.layui-laypage-common_paging.layui-laypage .layui-laypage-curr em{
+  color:#4A4A4A;
+}
+/*common paging end*/
