@@ -58,6 +58,31 @@ a:hover {
 .fr{
   float:right !important;
 }
+input.common_checkbox[type=checkbox] {
+  position: relative;
+  width: 10px;
+  height: 1px;
+}
+input.common_checkbox[type=checkbox]::before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  line-height:12px;
+  text-align: center;
+  color:white;
+  font-size:16px;
+  background-color:#fff;
+  border:1px solid #165DBC;
+}
+input.common_checkbox[type=checkbox]:checked::before {
+  color:white;
+  background-color:#165DBC;
+  content: '√';
+  font-size:12px;
+}
 /*common style end*/
 
 /*common top start*/
