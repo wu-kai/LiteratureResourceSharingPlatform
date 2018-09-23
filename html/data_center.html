@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据中心</title>
+
+    <!--load css resource-->
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/data_center.css">
+
+    <!--load js resource-->
+    <script src="../lib/jquery-3.3.1.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
+    <script src="../lib/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/data_center.js"></script>
+</head>
+<body>
+    <!--common top-->
+    <div class="common_top">
+        <div class="w1200 clearF">
+            <div class="top_left">
+                <span class="welcome">欢迎您!</span>
+                <span class="login common_link"><a href="./login.html">请登录</a></span>
+                <span class="register common_link"><a href="./register.html">免费注册</a></span>
+            </div>
+            <div class="top_right">
+                <span class="shopping_cart">购物车</span>
+                <span class="my_indent">我的订单</span>
+                <span class="personal_center">个人中心</span>
+                <span class="collect">收藏本站</span>
+            </div>
+        </div>
+    </div>
+    <!--common header-->
+    <div class="common_header w1200 clearF">
+        <div class="header_left clearF">
+            <div class="logo">
+                <img src="../images/logo.png" alt="">
+            </div>
+            <div class="title">四川省标准文献资源共享平台</div>
+        </div>
+        <div class="header_right">
+            <div class="search clearF">
+                <input type="text" placeholder="请输入关键字">
+                <span class="common_link_no"></span>
+            </div>
+        </div>
+    </div>
+    <!--common navigation-->
+    <div class="common_navigation">
+        <div class="w1200 clearF">
+            <div class="navigation_item all_classify">
+                <a href="">全部标准分类</a>
+                <div class="classify_list">
+                    <div class="classify_item classify_item1">
+                        <span>国际标准分类1</span>
+                        <span></span>
+                    </div>
+                    <hr>
+                    <div class="classify_item classify_item2">
+                        <span>国际标准分类2</span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="classify_sub_list classify_sub_list1">
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献1111
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献22222
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="classify_sub_list classify_sub_list2">
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation_item not_classify"><a href="./index.html">首页</a></div>
+            <div class="navigation_item not_classify data_center active sub_navigation">
+                <a href="./data_center.html">数据中心</a>
+                <div class="database_list sub_navigation_list">
+                    <div class="top_center_triangle"></div>
+                    <ul>
+                        <li class="common_link_no">标准数据库</li>
+                        <li class="common_link_no">专题 标准数据库</li>
+                        <li class="common_link_no">期刊文献数据库</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation_item not_classify"><a href="./standard_state.html">标准动态</a></div>
+            <div class="navigation_item not_classify"><a href="">新闻资讯</a></div>
+            <div class="navigation_item not_classify"><a href="">政策法规</a></div>
+        </div>
+    </div>
+    <div class="data_center_box w1200 clearF">
+        <div class="common_left_navigation">
+            <ul>
+                <li class="active" data-id="0"><span>国内技术法规</span></li>
+                <li data-id="1"><span>国外技术法规</span></li>
+                <li data-id="2"><span>期刊文献</span></li>
+                <li data-id="3"><span>研究成果</span></li>
+                <li data-id="4"><span>标志标识</span></li>
+            </ul>
+        </div>
+        <div class="common_right_box data_center_content">
+            <!--国内技术法规-->
+            <div class="active" id="0">
+                <div class="content_search_item clearF">
+                    <span class="name fl">搜索关键字:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">默认在法规标题、文号、正文检索关键词</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">检索范围:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>选择</option>
+                            <option value="2">选择1</option>
+                            <option value="3">选择2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">选定下拉框可指定关键词 检索范围</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">效力级别:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>选择</option>
+                            <option value="2">选择1</option>
+                            <option value="3">选择2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">分为法律/地方性法规/政府规章/政府文件/部门文件</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">法规分类:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">分为法律</option>
+                            <option value="3">地方性法规</option>
+                            <option value="4">政府规章</option>
+                            <option value="5">政府文件</option>
+                            <option value="6">部门文件</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">点击选择 按照国民经济行业分类</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">时效性:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">现行</option>
+                            <option value="3">作废</option>
+                            <option value="3">未实施</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">分为现行、作废、未实施</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">日期区间:</span>
+                    <div class="input_box fl time_to_time_select">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">时区1</option>
+                            <option value="3">时区2</option>
+                            <option value="3">时区3</option>
+                        </select>
+                        <input type="text" class="layui-input" id="time01">
+                        至
+                        <input type="text" class="layui-input" id="time02">
+                    </div>
+                    <span class="remark fl">示例：2008-01-01至2010-01-01</span>
+                </div>
+                <button class="search">查询</button>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>效力级别</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>D</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>效力级别</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>D</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>效力级别</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>D</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>效力级别</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>D</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                </div>
+            </div>
+            <!--国外技术法规-->
+            <div id="1">
+                <div class="content_search_item clearF">
+                    <span class="name fl">法规编号:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">示例：如CFR 246.11中246.11是法规编号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">题内关键字:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">可输入中文标题或英文标题中字段，示例：“水果”或“fruit”</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">CFR分类:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">现行</option>
+                            <option value="3">作废</option>
+                            <option value="3">未实施</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">点击选择</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">发布年份:</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time11">
+                        至
+                        <input type="text" class="layui-input" id="time12">
+                    </div>
+                    <span class="remark fl">示例：2008-01-01至2010-01-01</span>
+                </div>
+                <button class="search">查询</button>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--期刊文献-->
+            <div id="2">
+                <div class="content_search_item clearF">
+                    <span class="name fl">搜索关键字:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">默认在法规标题、文号、正文检索关键词</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">检索范围:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>选择</option>
+                            <option value="2">选择1</option>
+                            <option value="3">选择2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">选定下拉框可指定关键词 检索范围</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">文献类别:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">所有1</option>
+                            <option value="3">所有2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">可查找不同研究成果中的期刊文献</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">日期时间:</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time21">
+                        至
+                        <input type="text" class="layui-input" id="time22">
+                    </div>
+                    <span class="remark fl">示例：2008-01-01至2010-01-01</span>
+                </div>
+                <button class="search">查询</button>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>标题：</span>
+                        <span class="title">目次</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>摘要：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计划或活
+                            动中对残疾的零歧视政策的执行--第4
+                        </p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>标题：</span>
+                        <span class="title">目次</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>摘要：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计划或活
+                            动中对残疾的零歧视政策的执行--第4
+                        </p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>标题：</span>
+                        <span class="title">目次</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>摘要：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计划或活
+                            动中对残疾的零歧视政策的执行--第4
+                        </p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>标题：</span>
+                        <span class="title">目次</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>摘要：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计划或活
+                            动中对残疾的零歧视政策的执行--第4
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--研究成果-->
+            <div id="3">
+                <div class="content_search_item clearF">
+                    <span class="name fl">搜索关键字:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">默认在法规标题、文号、正文检索关键词</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">检索范围:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>选择</option>
+                            <option value="2">选择1</option>
+                            <option value="3">选择2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">选定下拉框可指定关键词 检索范围</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">成果级别:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">所有1</option>
+                            <option value="3">所有2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl">可查找不同研究成果中的期刊文献</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">日期时间:</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time31">
+                        至
+                        <input type="text" class="layui-input" id="time32">
+                    </div>
+                    <span class="remark fl">示例：2008-01-01至2010-01-01</span>
+                </div>
+                <button class="search">查询</button>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+                <div class="content_result_item">
+                    <div class="result_item_row clearF">
+                        <span>法规标题：</span>
+                        <span class="title">天然气利用政策</span>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>法规分类：</span>
+                        <p>部门文件</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>发布日期：</span>
+                        <p>2015-06-27</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>中文标题：</span>
+                        <p>总则--第457部分:国家资本计划委员会开展的计
+                            划或活动中对残疾的零歧视政策的执行--第4</p>
+                    </div>
+                    <div class="result_item_row clearF">
+                        <span>英文标题：</span>
+                        <p>总则--第457部分:General Provisions--Part457:
+                            enforcement of nondiscrimination on
+                            the basis of handicap in programs or
+                            activities conducted by the national
+</p>
+                    </div>
+                </div>
+            </div>
+            <!--标志标识-->
+            <div id="4">
+                <div class="content_search_item clearF">
+                    <span class="name fl">所属标准:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">所属分类:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>选择</option>
+                            <option value="2">选择1</option>
+                            <option value="3">选择2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">图标名称:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>所有</option>
+                            <option value="2">所有1</option>
+                            <option value="3">所有2</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="search">查询</button>
+                <div class="content_result_icons_box">
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                    <div class="content_result_icons">
+                        <div class="icon">
+                            <img src="../images/data_logo.png" alt="">
+                        </div>
+                        <p class="title">编号：02</p>
+                        <p class="classify">租赁车</p>
+                        <p>标准号：GB/T 10001.1-2000</p>
+                    </div>
+                <div id="paging" class="marginT50"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--common footer-->
+    <div class="common_footer">
+        <p>主办单位: 四川省标准化研究院　　技术支持：四川省标准化研究院</p>
+        <p>Copyright © 2017-2018 四川省标准文献资源共享平台</p>
+    </div>
+</body>
+</html>

@@ -8,6 +8,8 @@ $(document).ready(function(){
   let $classify_sub_list1 = $('.classify_sub_list1');
   let $classify_sub_list2 = $('.classify_sub_list2');
   let $not_classify = $('.not_classify');
+  let data_center = $('.common_navigation .data_center');
+  let $database_list = $('.common_navigation .database_list');
 
   $all_classify.on('mouseover',function(){
     $classify_list.show();
@@ -40,4 +42,21 @@ $(document).ready(function(){
     $classify_sub_list.hide();
     $classify_list.hide();
   });
+
+  data_center.on('mouseover',function(){
+    $database_list.show();
+  });
+
+  data_center.on('mouseleave',function(){
+    $database_list.hide();
+  });
+
+  $database_list.on('mouseover',function(){
+    $database_list.show();
+  });
+
+  $database_list.on('mouseleave',function(){
+    $database_list.hide();
+  })
+
 });
