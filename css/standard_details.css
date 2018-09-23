@@ -1,0 +1,118 @@
+.standard_details_box{
+  padding-top:30px;
+  margin-bottom:50px;
+}
+.standard_details_title{
+  line-height:60px;
+  background:rgba(22, 93, 188, 0.06);
+  color:#545E65;
+  font-size:16px;
+  padding-left:16px;
+  margin-top:30px;
+}
+.standard_details_content{
+  padding:20px;
+  background:rgba(22, 93, 188, 0.06);
+  margin-top:30px;
+  font-size:12px;
+  color:#737373;
+}
+.standard_details_content .item{
+  line-height:20px;
+  overflow:hidden;
+  margin-top:20px;
+}
+.standard_details_content .item span.title{
+  color:#9d9ca4;
+  float:left;
+  width:80px;
+  text-align:right;
+}
+.standard_details_content .item p{
+  float:left;
+  width:700px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin-left:16px;
+  /*white-space: nowrap;*/
+}
+.standard_details_box .buttons{
+  margin-top:50px;
+  margin-left:20px;
+  margin-bottom:50px;
+}
+.standard_details_box .buttons button{
+  width:150px;
+  height:42px;
+  border:1px solid #165DBC;
+  color:#165DBC;
+  border-radius:21px;
+  margin-right:50px;
+  background:#fff;
+}
+.standard_details_box .buttons button:hover{
+  color:#fff;
+  background:#165DBC;
+  cursor:pointer;
+}
+.range{
+  border:1px solid #DAE2E6;
+  margin-top:30px;
+  padding:50px;
+  font-size:12px;
+  color:#545E65;
+}
+.range p{
+  width:50%;
+  line-height:24px;
+}
+.relevance{
+  margin-top:30px;
+  overflow:hidden;
+}
+.relevance .relevance_box{
+  width:calc(50% - 10px);
+  box-sizing:border-box;
+}
+.relevance .relevance_title{
+  background:#37BD9C;
+  font-size:20px;
+  color:#fff;
+  padding-left:16px;
+  line-height:40px;
+}
+.relevance .relevance_box .relevance_content{
+  border:1px solid #DAE2E6;
+  padding:50px;
+}
+.relevance .relevance_box .relevance_content p{
+}
+#edit-modal{
+  padding:40px 20px;
+  width:500px;
+}
+#edit-modal .modal_title{
+  text-align:center;
+  font-size:18px;
+  color:#545E65;
+}
+#edit-modal ul{
+  margin-top:20px;
+}
+#edit-modal ul li{
+  line-height:40px;
+  border-bottom:1px dotted #DAE2E6;
+  overflow:hidden;
+}
+#edit-modal ul li span.name{
+  float:left;
+  width:80px;
+  text-align:right;
+}
+#edit-modal ul li input{
+  float:left;
+  width:400px;
+  margin-left:20px;
+  border:none;
+  height:40px;
+}
