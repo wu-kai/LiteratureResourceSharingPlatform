@@ -5,13 +5,10 @@
     <title>注册</title>
 
     <!--load css resource-->
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/login.css">
 
-    <!--load js resource-->
-    <script src="../lib/jquery-3.3.1.js"></script>
-    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
-    <script src="../js/login.js"></script>
 </head>
 <body>
     <div class="clearF register_top">
@@ -48,8 +45,8 @@
                 <input class="right" type="text" placeholder="请再次输入登录密码">
             </div>
             <div class="input_box_1">
-                <div class="right deal">
-                    <input class="common_checkbox" type="checkbox">
+                <div class="right deal common_checkbox layui-form">
+                    <input class="fl" type="checkbox" name="" lay-skin="primary">
                     <span>已阅读并同意《<a href="">用户协议服务</a>》</span>
                 </div>
             </div>
@@ -62,5 +59,12 @@
         <p>主办单位: 四川省标准化研究院　　技术支持：四川省标准化研究院</p>
         <p>Copyright © 2017-2018 四川省标准文献资源共享平台</p>
     </div>
+
+    <!--load js resource-->
+    <script src="../lib/jquery-3.3.1.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
+    <script src="../lib/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 </html>

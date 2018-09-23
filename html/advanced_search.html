@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高级搜索</title>
+
+    <!--load css resource-->
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/advanced_search.css">
+</head>
+<body>
+    <!--common top-->
+    <div class="common_top">
+        <div class="w1200 clearF">
+            <div class="top_left">
+                <span class="welcome">欢迎您!</span>
+                <span class="login common_link"><a href="./login.html">请登录</a></span>
+                <span class="register common_link"><a href="./register.html">免费注册</a></span>
+            </div>
+            <div class="top_right">
+                <span class="shopping_cart">购物车</span>
+                <span class="my_indent">我的订单</span>
+                <span class="personal_center">个人中心</span>
+                <span class="collect">收藏本站</span>
+            </div>
+        </div>
+    </div>
+    <!--common header-->
+    <div class="common_header w1200 clearF">
+        <div class="header_left clearF">
+            <div class="logo">
+                <img src="../images/logo.png" alt="">
+            </div>
+            <div class="title">四川省标准文献资源共享平台</div>
+        </div>
+        <div class="header_right">
+            <div class="search clearF">
+                <input type="text" placeholder="请输入关键字">
+                <span class="common_link_no"></span>
+            </div>
+        </div>
+    </div>
+    <!--common navigation-->
+    <div class="common_navigation">
+        <div class="w1200 clearF">
+            <div class="navigation_item all_classify">
+                <a href="">全部标准分类</a>
+                <div class="classify_list">
+                    <div class="classify_item classify_item1">
+                        <span>国际标准分类1</span>
+                        <span></span>
+                    </div>
+                    <hr>
+                    <div class="classify_item classify_item2">
+                        <span>国际标准分类2</span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="classify_sub_list classify_sub_list1">
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献1111
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献22222
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="classify_sub_list classify_sub_list2">
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            综合、术语学、标准化、文献
+                        </div>
+                        <div class="content">
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                            <span>01.020 术语学</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation_item not_classify"><a href="./index.html">首页</a></div>
+            <div class="navigation_item not_classify data_center active sub_navigation">
+                <a href="./data_center.html">数据中心</a>
+                <div class="database_list sub_navigation_list">
+                    <div class="top_center_triangle"></div>
+                    <ul>
+                        <li class="common_link_no">标准数据库</li>
+                        <li class="common_link_no">专题 标准数据库</li>
+                        <li class="common_link_no">期刊文献数据库</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation_item not_classify"><a href="./standard_state.html">标准动态</a></div>
+            <div class="navigation_item not_classify"><a href="">新闻资讯</a></div>
+            <div class="navigation_item not_classify"><a href="">政策法规</a></div>
+        </div>
+    </div>
+    <!--common location-->
+    <p class="common_location">
+        <span>首页</span>
+        <span> > </span>
+        <span>高级搜索</span>
+    </p>
+
+    <div class="advanced_search_box w1200 clearF">
+        <div class="common_left_navigation">
+            <ul>
+                <li class="active" data-id="0"><span>标准文献</span></li>
+                <li data-id="1"><span>技术法规</span></li>
+                <li data-id="2"><span>期刊</span></li>
+                <li data-id="3"><span>专著</span></li>
+                <li data-id="4"><span>内容指标</span></li>
+            </ul>
+        </div>
+        <div class="common_right_box advanced_search_content">
+            <!--标准文献-->
+            <div class="active" id="0">
+                <div class="content_search_item clearF">
+                    <span class="name fl">关键字</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <input class="" type="checkbox" name="" title="标题" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="适用范围" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="主题词" lay-skin="primary">
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">标准号</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">国际标准分类</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <span class="choose common_link_no">选择</span>
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">中国标准分类</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <span class="choose common_link_no">选择</span>
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">采用关系</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">采用品种</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <span class="choose common_link_no">选择</span>
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">年代号</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time01">
+                        至
+                        <input type="text" class="layui-input" id="time02">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">标准状态</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>现行</option>
+                            <option value="2">时区1</option>
+                            <option value="3">时区2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="buttons">
+                     <button class="search common_link_no">搜索</button>
+                     <button class="reset common_link_no">重置</button>
+                 </div>
+            </div>
+            <!--技术法规-->
+            <div id="1">
+                <div class="content_search_item clearF">
+                    <span class="name fl">标准状态</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>请选择法规种类</option>
+                            <option value="2">现行</option>
+                            <option value="3">作废</option>
+                            <option value="3">未实施</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">标准号:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：第111号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">中英文标题:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：农业</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">中英文关键字:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：农业</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">文稿:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">法规状态:</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>全部</option>
+                            <option value="2">现行</option>
+                            <option value="3">作废</option>
+                            <option value="3">未实施</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">字段关系:</span>
+                    <div class="input_box fl layui-form">
+                        <input type="radio" name="sex" value="nan" title="与">
+                        <input type="radio" name="sex" value="nv" title="或" checked>
+                    </div>
+                    <span class="remark fl"></span>
+                </div>
+                <div class="buttons">
+                     <button class="search common_link_no">搜索</button>
+                     <button class="reset common_link_no">重置</button>
+                 </div>
+            </div>
+            <!--期刊-->
+            <div id="2">
+                <div class="content_search_item clearF">
+                    <span class="name fl">标题:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：第111号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">作者:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：第111号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">分类号:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：农业机械管理条例</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">ISSN:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">刊名:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">年卷期:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">出版年</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time21">
+                        至
+                        <input type="text" class="layui-input" id="time22">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">文摘:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">字段关系:</span>
+                    <div class="input_box fl layui-form">
+                        <input type="radio" name="sex" value="nan" title="与">
+                        <input type="radio" name="sex" value="nv" title="或" checked>
+                    </div>
+                    <span class="remark fl"></span>
+                </div>
+                <div class="buttons">
+                     <button class="search common_link_no">搜索</button>
+                     <button class="reset common_link_no">重置</button>
+                 </div>
+            </div>
+            <!--专著-->
+            <div id="3">
+                <div class="content_search_item clearF">
+                    <span class="name fl">书名:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：第111号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">作者:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：第111号</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">出版社:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：农业机械管理条例</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">出版年</span>
+                    <div class="input_box fl time_to_time_select">
+                        <input type="text" class="layui-input" id="time31">
+                        至
+                        <input type="text" class="layui-input" id="time32">
+                    </div>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">文摘:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">字段关系:</span>
+                    <div class="input_box fl layui-form">
+                        <input type="radio" name="sex" value="nan" title="与">
+                        <input type="radio" name="sex" value="nv" title="或" checked>
+                    </div>
+                    <span class="remark fl"></span>
+                </div>
+                <div class="buttons">
+                     <button class="search common_link_no">搜索</button>
+                     <button class="reset common_link_no">重置</button>
+                 </div>
+            </div>
+            <!--内容指标-->
+            <div id="4">
+                <div class="content_search_item clearF">
+                    <span class="name fl">领域</span>
+                    <div class="input_box fl">
+                        <select name="">
+                            <option value="1" selected>现行</option>
+                            <option value="2">时区1</option>
+                            <option value="3">时区2</option>
+                        </select>
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <input class="" type="checkbox" name="" title="含上层标准" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="含下层标准" lay-skin="primary">
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">主题词</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl common_checkbox layui-form">
+                        <span class="choose common_link_no">查类</span>
+                        <span>如：乳制品</span>
+                    </span>
+                </div>
+                <div class="content_search_item clearF">
+                    <span class="name fl">指标:</span>
+                    <div class="input_box fl">
+                        <input type="text" class="input">
+                    </div>
+                    <span class="remark fl">如：如：农业机械</span>
+                </div>
+                <div class="buttons layui-form common_checkbox">
+                     <input class="" type="checkbox" name="" title="含上层标准" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="含下层标准" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="含下层标准" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="含下层标准" lay-skin="primary">
+                        <input class="" type="checkbox" name="" title="含下层标准" lay-skin="primary">
+                 </div>
+                <div class="buttons">
+                     <button class="search common_link_no">搜索</button>
+                     <button class="reset common_link_no">重置</button>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--common footer-->
+    <div class="common_footer">
+        <p>主办单位: 四川省标准化研究院　　技术支持：四川省标准化研究院</p>
+        <p>Copyright © 2017-2018 四川省标准文献资源共享平台</p>
+    </div>
+
+    <!--modal1-->
+    <div id="modal1" class="common_modal">
+        <div class="list layui-form common_checkbox">
+            <input class="" type="checkbox" name="" title="标题" lay-skin="primary">
+            <input class="" type="checkbox" name="" title="适用范围" lay-skin="primary">
+            <input class="" type="checkbox" name="" title="主题词" lay-skin="primary">
+        </div>
+    </div>
+
+    <!--load js resource-->
+    <script src="../lib/jquery-3.3.1.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
+    <script src="../lib/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/advanced_search.js"></script>
+</body>
+</html>

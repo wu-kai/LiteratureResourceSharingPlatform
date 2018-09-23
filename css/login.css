@@ -190,6 +190,9 @@
 .input_box_1 .deal.right input[type=checkbox]{
   float:left;
 }
+.input_box_1 .deal .layui-form-checkbox[lay-skin=primary]{
+  float:left;
+}
 .input_box_1 .deal span{
   float:left;
   margin-left:16px;

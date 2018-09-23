@@ -77,30 +77,33 @@ a:hover {
   left:50%;
   margin-left:-10px;
 }
-input.common_checkbox[type=checkbox] {
-  position: relative;
-  width: 10px;
-  height: 1px;
+.common_location{
+  width:1200px;
+  margin:16px auto 0;
+  text-align:left;
 }
-input.common_checkbox[type=checkbox]::before{
-  content:'';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  line-height:12px;
-  text-align: center;
-  color:white;
-  font-size:16px;
-  background-color:#fff;
-  border:1px solid #165DBC;
-}
-input.common_checkbox[type=checkbox]:checked::before {
-  color:white;
-  background-color:#165DBC;
-  content: '√';
+.common_location span{
   font-size:12px;
+  color:#545E65;
+  margin-right:10px;
+}
+.common_checkbox .layui-form-checkbox[lay-skin=primary]:hover i{
+  border-color: #165DBC;
+  color:#fff;
+}
+.common_checkbox .layui-form-checked[lay-skin=primary] i{
+  border-color: #165DBC;
+  background-color: #165DBC;
+  color:#fff;
+}
+.common_modal{
+  padding:20px;
+  min-height:200px;
+  min-width:300px;
+  display:none;
+}
+.common_modal .modal_footer{
+
 }
 /*common style end*/
 
