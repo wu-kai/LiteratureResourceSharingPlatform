@@ -105,6 +105,10 @@ a:hover {
 .common_modal .modal_footer{
 
 }
+.layui-layer-btn .layui-layer-btn0{
+  border-color: #165DBC !important;
+  background-color: #165DBC !important;
+}
 /*common style end*/
 
 /*common top start*/
