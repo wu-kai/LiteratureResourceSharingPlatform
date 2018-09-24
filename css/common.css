@@ -402,6 +402,10 @@ a:hover {
 }
 /*common left navigation end*/
 /*common paging start*/
+.common_paging{
+  text-align:center !important;
+  width:100% !important;
+}
 #paging{
   text-align:center;
   width:100%;
@@ -414,5 +418,8 @@ a:hover {
 }
 .layui-laypage-common_paging.layui-laypage .layui-laypage-curr em{
   color:#4A4A4A;
+}
+.layui-laypage a:hover{
+  color: #165DBC;
 }
 /*common paging end*/
