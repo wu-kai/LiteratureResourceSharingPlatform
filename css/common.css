@@ -236,6 +236,7 @@ a:hover {
   width:250px;
   box-sizing:border-box;
   display:none;
+  z-index: 999;
 }
 .common_navigation .classify_list .classify_item{
   font-size:14px;
@@ -277,6 +278,7 @@ a:hover {
   padding:0 20px 40px 20px;
   line-height:normal;
   display:none;
+  z-index: 9999;
 }
 .common_navigation .classify_sub_list .item{
   overflow:hidden;
