@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  let $ = layui.jquery;
   let $lis = $('.advanced_search_box ul li');
   let $contents = $('.advanced_search_box .advanced_search_content>div');
 

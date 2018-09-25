@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  let $ = layui.jquery;
 
   $('#edit').on('click',function(){
     layer.open({

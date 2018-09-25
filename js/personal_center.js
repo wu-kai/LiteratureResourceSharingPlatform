@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  let $ = layui.jquery;
     let $lis = $('.personal_center_box ul li');
     let $contents = $('.personal_center_box .personal_center_content>div');
     let $order_type_item = $('.order_type_item');

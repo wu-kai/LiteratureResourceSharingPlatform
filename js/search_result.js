@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  let $ = layui.jquery;
     let $more = $('.more');
     let $close = $('.operation .close');
     let $multiple = $('.operation .multiple');
